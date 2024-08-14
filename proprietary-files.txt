@@ -1,23 +1,15 @@
 # All unpinned blobs below are extracted from mondrian V816.0.10.0.UMNMIXM
 
+<<<<<<< HEAD
 # Current blobs with ELF checks disabled:
 # audio.primary.taro depends on vendor.qti.hardware.pal@1.0-impl, which is a gnu makefile target
 # libar-pal depends on libagmclient, which is a gnu makefile target
 
+=======
+>>>>>>> e4f13c5 (mondrian: Build audio HAL from source)
 # ACDB
-vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
-vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp
-vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_acdb_cal.acdb
-vendor/etc/acdbdata/IDP_UPD_diwali/IDP_UPD_diwali_workspaceFileXml.qwsp
-vendor/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb
-vendor/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_idp/IDP_diwali_acdb_cal.acdb
-vendor/etc/acdbdata/diwali_idp/IDP_diwali_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_acdb_cal.acdb
-vendor/etc/acdbdata/diwali_idp_sku1/IDP_diwali_sku1_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_qrd/QRD_diwali_acdb_cal.acdb
-vendor/etc/acdbdata/diwali_qrd/QRD_diwali_workspaceFileXml.qwsp
-vendor/etc/acdbdata/diwali_qrd_sku1/QRD_diwali_sku1_acdb_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:vendor/etc/acdbdata/waipio_mtp/Tutu_acdb_cal.acdb
+vendor/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp:vendor/etc/acdbdata/waipio_mtp/Tutu_workspaceFileXml.qwsp
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd
@@ -110,22 +102,10 @@ vendor/lib/rfsa/adsp/weak_refs.so
 
 # Audio configs
 vendor/etc/audio/sku_taro/resourcemanager_waipio_mtp.xml|f2a12a14b5a4ab1ef639d9cca27c19dc02e3761c
-vendor/etc/audio_cloud_control_white_list.xml|eb3e9d835a536d25fdd22aab8cc9824d275227cb
 vendor/etc/backend_conf.xml|97a883f65fd5aed1c9352afb241a503feac3d21a
-vendor/etc/card-defs.xml|1b554e76fb11661858ee7843aecb62cc22361176
-vendor/etc/audio_policy_engine_configuration_mi.xml:vendor/etc/audio_policy_engine_configuration.xml|ef0cdc9ac80ab1a14c279e3f73f8a2090f360bda
-vendor/etc/audio_policy_engine_default_stream_volumes.xml|6a02168032d91dd0cc6e2d14bf5f3757441d1025
-vendor/etc/audio_policy_engine_product_strategies.xml|57074da402535ad5ab160bbbe7a92ac3f012f954
-vendor/etc/audio_policy_engine_stream_volumes.xml|589f7c99dab13d5a0119fa77fff1bfe19accd9e3
 vendor/etc/kvh2xml.xml|5a0b207189435e6da98e9454137427a16daf7785
 vendor/etc/microphone_characteristics.xml|133a6a72803e9d6b61f19e0861d2a2597c2e9c67
 vendor/etc/usecaseKvManager.xml|720f4cabeb3b0379c6294f86eda646320d49340d
-
-# Audio
-vendor/lib64/hw/audio.primary.taro.so;DISABLE_CHECKELF
-vendor/lib64/libagm.so
-vendor/lib64/libar-pal.so;DISABLE_CHECKELF
-vendor/lib64/libkaraokepal.so
 
 # Audio firmware
 vendor/firmware/aw882xx_acf.bin

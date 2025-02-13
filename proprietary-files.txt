@@ -109,16 +109,20 @@ vendor/lib/rfsa/adsp/misound_res_spk4ch.bin
 vendor/lib/rfsa/adsp/weak_refs.so
 
 # Audio configs
-vendor/etc/audio/sku_cape/mixer_paths_overlay_dynamic.xml
-vendor/etc/audio/sku_cape/mixer_paths_overlay_static.xml
-vendor/etc/audio/sku_cape/mixer_paths_waipio_mtp.xml
-vendor/etc/audio/sku_cape/resourcemanager_waipio_mtp.xml
-vendor/etc/audio_cloud_control_white_list.xml
-vendor/etc/backend_conf.xml
-vendor/etc/card-defs.xml
-vendor/etc/kvh2xml.xml
-vendor/etc/microphone_characteristics.xml
-vendor/etc/usecaseKvManager.xml
+vendor/etc/audio/sku_taro/mixer_paths_overlay_dynamic.xml|0c0ff1d3aace49218d91c13b28601dce0b26e13f
+vendor/etc/audio/sku_taro/mixer_paths_overlay_static.xml|40980ac5aaada9b3b12e05831ffd0d8f346aa3e0
+vendor/etc/audio/sku_taro/mixer_paths_waipio_mtp.xml|2e8b759538abb27935133843e22b33f83f8154dd
+vendor/etc/audio/sku_taro/resourcemanager_waipio_mtp.xml|f2a12a14b5a4ab1ef639d9cca27c19dc02e3761c
+vendor/etc/audio_cloud_control_white_list.xml|eb3e9d835a536d25fdd22aab8cc9824d275227cb
+vendor/etc/backend_conf.xml|97a883f65fd5aed1c9352afb241a503feac3d21a
+vendor/etc/card-defs.xml|1b554e76fb11661858ee7843aecb62cc22361176
+vendor/etc/audio_policy_engine_configuration_mi.xml:vendor/etc/audio_policy_engine_configuration.xml|ef0cdc9ac80ab1a14c279e3f73f8a2090f360bda
+vendor/etc/audio_policy_engine_default_stream_volumes.xml|6a02168032d91dd0cc6e2d14bf5f3757441d1025
+vendor/etc/audio_policy_engine_product_strategies.xml|57074da402535ad5ab160bbbe7a92ac3f012f954
+vendor/etc/audio_policy_engine_stream_volumes.xml|589f7c99dab13d5a0119fa77fff1bfe19accd9e3
+vendor/etc/kvh2xml.xml|5a0b207189435e6da98e9454137427a16daf7785
+vendor/etc/microphone_characteristics.xml|133a6a72803e9d6b61f19e0861d2a2597c2e9c67
+vendor/etc/usecaseKvManager.xml|720f4cabeb3b0379c6294f86eda646320d49340d
 
 # Audio
 vendor/lib64/hw/audio.primary.taro.so;DISABLE_CHECKELF
@@ -128,6 +132,30 @@ vendor/lib64/libkaraokepal.so
 
 # Audio firmware
 vendor/firmware/aw882xx_acf.bin
+
+# Dolby Atmos
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|eb3dfe12845201eec35d3ceb0c18e8eb8e877a0f|39e2c4f7762c9540b5ad4ac58f24ad230b01f417
+vendor/etc/dolby/dax-default.xml|d49e6c5c90a954900eac1c1e6073bcb3325af084
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml|e14caab9b769e58a993583c0486d58b30249ca92
+vendor/lib/libdapparamstorage.so|e9f21d9ca0bd28b705e91772041e706508131c72
+vendor/lib/libdeccfg.so|ddda752fe04aeb90c94ccc950b1c0cd07f7be804
+vendor/lib/libstagefright_soft_ddpdec.so|9eb8298b52e7435075edf0b4b44fe5a4a4ecf5f0
+vendor/lib/libstagefrightdolby.so|ad2d4ff0aa06ab9642311ab469b50b4a79bf8afa
+vendor/lib/soundfx/libhwdap.so|1eb53dc54f31b151a6fa6c6256be84a55f38b4d8
+vendor/lib/soundfx/libswgamedap.so|4f19d912050dce5ddb45ad5e848764bda4d80498
+vendor/lib/soundfx/libswvqe.so|e3418164eb56d98f2cb8929731933a6203e8cb98
+vendor/lib/vendor.dolby.hardware.dms@2.0.so|3cf1aa84144609b8b1e050f2dbb6e6e69141f993
+vendor/lib64/libdapparamstorage.so|738bb86eaf9cf93a10c5a3352a6e6c6572a8566b
+vendor/lib64/libdeccfg.so|1720f4998f666c1b08fe3116d45ca76d48b0a610
+vendor/lib64/libdlbdsservice.so|2db3896c230631ff0d0a77042c4137bf1069978d
+vendor/lib64/libstagefright_soft_ddpdec.so|99cef1c2ff617e2f4a9006c7bae9326804a59e63
+vendor/lib64/libstagefrightdolby.so|6736c39633d64a8e285f5c1f478af97c4f22cb5d
+vendor/lib64/soundfx/libhwdap.so|c9a022b299c744d832136c9125a9372cb226ee8a
+vendor/lib64/soundfx/libswgamedap.so|5d20994e801f11c098af4cd646b96574dba40e71
+vendor/lib64/soundfx/libswvqe.so|0f56d1adfab8ee3961b1af2b55f5d717099b3ef6
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|48bf9299172f0626a74c5a3c21b7b598c4d2a185
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so|975fee7ab5d90b6e66984d9f67f198c3a4ea358f
 
 # Batterysecret
 vendor/bin/batterysecret

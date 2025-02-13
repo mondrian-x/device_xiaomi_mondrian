@@ -48,7 +48,14 @@ blob_fixups: blob_fixups_user_type = {
     ),
     'vendor/lib64/libcamximageformatutils.so': blob_fixup().replace_needed(
         'vendor.qti.hardware.display.config-V2-ndk_platform.so',
-        'vendor.qti.hardware.display.config-V2-ndk.so',
+        'vendor.qti.har dware.display.config-V2-ndk.so',
+    ),
+    'vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service': blob_fixup().add_needed(
+        'libstagefright_foundation-v33.so',
+    ),
+    'vendor/lib64/hw/audio.primary.taro.so': blob_fixup().replace_needed(
+        'libstagefright_foundation.so',
+        'libstagefright_foundation-v33.so',
     ),
     (
         'vendor/lib64/libTrueSight.so',

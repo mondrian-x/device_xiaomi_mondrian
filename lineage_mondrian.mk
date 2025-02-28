@@ -23,3 +23,20 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     SystemName=mondrian_global
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Mistification
+PRODUCT_NO_CAMERA := true
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
+TARGET_ENABLE_BLUR := true
+TARGET_BOOT_ANIMATION_RES := 1440
+
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# Gapps
+WITH_GMS := true
+
+# Maintainer
+MISTOS_MAINTAINER="Xenogenesys"
